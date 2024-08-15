@@ -695,7 +695,7 @@ button.button_dd4f85 /* small buttons */,
 }
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4))::before {
 	content: '';
-	display: var(--moon-icon);
+	display: var((--discord-icon);
 	position: absolute;
 	width: 65%;
 	height: 65%;
