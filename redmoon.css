@@ -9,10 +9,10 @@
 	--corner-text: 'Red Moon';
 
 	/* color of status indicators and window controls */
-	--online-indicator: #23a55a; /* Default green for online */
-	--dnd-indicator: #f13f43;   /* Default red for do not disturb */
-	--idle-indicator: #f0b232;  /* Default yellow for idle */
-	--streaming-indicator: #593695; /* Default purple for streaming 
+	--online-indicator: hsl(145, 65%, 39%); /* Default green for online */
+	--dnd-indicator: hsl(359, 86%, 60%); /* Default red for do not disturb */
+	--idle-indicator: hsl(40, 86%, 57%); /* Default yellow for idle */
+	--streaming-indicator: hsl(262, 47%, 40%); /* Default purple for streaming */
 
 	/* accent colors */
 	--accent-1: hsl(0, 70%, 60%); /* links */
@@ -29,7 +29,7 @@
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
 	--text-3: hsl(220, 15%, 60%); /* normal text */
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps *//
+	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
 	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
