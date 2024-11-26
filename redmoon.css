@@ -758,14 +758,9 @@ button.button_dd4f85 /* small buttons */,
 /* modify embeds */
 .embedFull_b0068a {
     border: 4px solid transparent; /* Set default border */
-    border-left-color: inherit;   /* Ensure left color inherits */
+    border-color: inherit;   /* Ensure left color inherits */
 }
 
-.embedFull_b0068a[style*="border-left-color"] {
-    /* Copy the color from the left border */
-    border-color: currentColor;
-    color: inherit; /* Enforce color inheritance */
-}
 /* server selected marker */
 .item_c4cd66 {
 	width: 4px;
