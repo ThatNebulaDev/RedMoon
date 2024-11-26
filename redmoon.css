@@ -755,13 +755,14 @@ button.button_dd4f85 /* small buttons */,
 	width: 4px;
 	border-radius: 4px;
 }
+/* Modify embeds */
 .embedFull_b0068a {
     border: 4px solid transparent; /* Default border setup */
 }
 
 /* Override to use the same color for all sides */
 .embedFull_b0068a[style*="border-left-color"] {
-    border-color: currentColor; /* Sync all sides to match platform-specific color */
+    style="border-color"
 }
 
 /* server selected marker */
