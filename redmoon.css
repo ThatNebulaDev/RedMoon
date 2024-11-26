@@ -757,13 +757,19 @@ button.button_dd4f85 /* small buttons */,
 }
 /* Modify embeds */
 .embedFull_b0068a {
-    border: 4px solid transparent; /* Default transparent border */
-    border-color: inherit !important; /* Inherit from the dynamic inline style */
+    border-left: 4px solid transparent; /* Keep the original left border intact */
+    border-top: 4px solid transparent; 
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
 }
 
-.embedFull_b0068a[style*="border-left-color"] {
-    border-color: currentColor !important; /* Match the inline left border color */
+.embedFull_b0068a[style*="border-left-color:"] {
+    /* Explicitly copy the left border color to other sides */
+    border-top-color: inherit !important;
+    border-right-color: inherit !important;
+    border-bottom-color: inherit !important;
 }
+
 
 
 /* server selected marker */
