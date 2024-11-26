@@ -758,6 +758,9 @@ button.button_dd4f85 /* small buttons */,
 /* modify embeds */
 .embedFull_b0068a {
 	border: 4px solid var(--bg-2);
+	border-top-color: !important;
+	border-bottom-color: !important;
+	border-right-color: !important;
 
 
 }
