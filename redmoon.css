@@ -758,10 +758,10 @@ button.button_dd4f85 /* small buttons */,
 /* modify embeds */
 .embedFull_b0068a {
 	border: 4px solid var(--bg-2) !important;
-	border-top-color: 4px solid var(--bg-2) !important;
-	border-bottom-color: 4px solid var(--bg-2) !important;
-	border-left-color: 4px solid var(--bg-2) !important;
-	border-right-color: 4px solid var(--bg-2) !important;
+	border-top-color: !important;
+	border-bottom-color: !important;
+	border-left-color: !important;
+	border-right-color: !important;
 
 }
 
